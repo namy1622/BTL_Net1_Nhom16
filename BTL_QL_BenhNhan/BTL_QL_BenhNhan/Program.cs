@@ -16,7 +16,7 @@ namespace BTL_QL_BenhNhan
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form_TrangChu());
+           Application.Run(new Form_Login());
         }
     }
 }
