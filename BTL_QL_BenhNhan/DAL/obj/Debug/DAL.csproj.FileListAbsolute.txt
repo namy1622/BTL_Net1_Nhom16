@@ -1,0 +1,14 @@
+E:\Cs\BTL_Net1\BTL_QL_BenhNhan\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+E:\Cs\BTL_Net1\BTL_QL_BenhNhan\DAL\obj\Debug\DAL.Properties.Resources.resources
+E:\Cs\BTL_Net1\BTL_QL_BenhNhan\DAL\obj\Debug\DAL.csproj.GenerateResource.cache
+E:\Cs\BTL_Net1\BTL_QL_BenhNhan\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+E:\Cs\BTL_Net1\BTL_QL_BenhNhan\DAL\obj\Debug\DAL.Form1.resources
+E:\Cs\BTL_Net1\BTL_QL_BenhNhan\DAL\bin\Debug\DAL.exe.config
+E:\Cs\BTL_Net1\BTL_QL_BenhNhan\DAL\bin\Debug\DAL.exe
+E:\Cs\BTL_Net1\BTL_QL_BenhNhan\DAL\bin\Debug\DAL.pdb
+E:\Cs\BTL_Net1\BTL_QL_BenhNhan\DAL\bin\Debug\DTO.exe
+E:\Cs\BTL_Net1\BTL_QL_BenhNhan\DAL\bin\Debug\DTO.pdb
+E:\Cs\BTL_Net1\BTL_QL_BenhNhan\DAL\bin\Debug\DTO.exe.config
+E:\Cs\BTL_Net1\BTL_QL_BenhNhan\DAL\obj\Debug\DAL.csproj.CopyComplete
+E:\Cs\BTL_Net1\BTL_QL_BenhNhan\DAL\obj\Debug\DAL.exe
+E:\Cs\BTL_Net1\BTL_QL_BenhNhan\DAL\obj\Debug\DAL.pdb

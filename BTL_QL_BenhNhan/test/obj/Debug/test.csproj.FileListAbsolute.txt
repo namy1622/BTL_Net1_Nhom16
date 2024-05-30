@@ -1,0 +1,9 @@
+E:\Cs\BTL_Net1\BTL_QL_BenhNhan\test\bin\Debug\test.exe.config
+E:\Cs\BTL_Net1\BTL_QL_BenhNhan\test\bin\Debug\test.exe
+E:\Cs\BTL_Net1\BTL_QL_BenhNhan\test\bin\Debug\test.pdb
+E:\Cs\BTL_Net1\BTL_QL_BenhNhan\test\obj\Debug\test.csproj.AssemblyReference.cache
+E:\Cs\BTL_Net1\BTL_QL_BenhNhan\test\obj\Debug\test.Properties.Resources.resources
+E:\Cs\BTL_Net1\BTL_QL_BenhNhan\test\obj\Debug\test.csproj.GenerateResource.cache
+E:\Cs\BTL_Net1\BTL_QL_BenhNhan\test\obj\Debug\test.csproj.CoreCompileInputs.cache
+E:\Cs\BTL_Net1\BTL_QL_BenhNhan\test\obj\Debug\test.exe
+E:\Cs\BTL_Net1\BTL_QL_BenhNhan\test\obj\Debug\test.pdb

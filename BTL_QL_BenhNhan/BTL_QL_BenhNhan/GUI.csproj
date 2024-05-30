@@ -1,0 +1,252 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FA2EE102-7FAE-41DC-88B0-F82589A2DB5D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>BTL_QL_BenhNhan</RootNamespace>
+    <AssemblyName>BTL_QL_BenhNhan</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="LiveCharts, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiveCharts.0.9.7\lib\net45\LiveCharts.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts.WinForms, Version=0.9.7.1, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiveCharts.WinForms.0.9.7.1\lib\net45\LiveCharts.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts.Wpf, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiveCharts.Wpf.0.9.7\lib\net45\LiveCharts.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BacSi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BacSi.Designer.cs">
+      <DependentUpon>BacSi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_BenhAn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_BenhAn.Designer.cs">
+      <DependentUpon>Form_BenhAn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_BenhNhan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_BenhNhan.Designer.cs">
+      <DependentUpon>Form_BenhNhan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_VienPhi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_VienPhi.Designer.cs">
+      <DependentUpon>Form_VienPhi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Khoa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Khoa.Designer.cs">
+      <DependentUpon>Form_Khoa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_Login.Designer.cs">
+      <DependentUpon>Form_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_NhapVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_NhapVien.Designer.cs">
+      <DependentUpon>Form_NhapVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="picture\form_test.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="picture\form_test.Designer.cs">
+      <DependentUpon>form_test.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Form_TrangChu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_TrangChu.Designer.cs">
+      <DependentUpon>Form_TrangChu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_XuatVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_XuatVien.Designer.cs">
+      <DependentUpon>Form_XuatVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Set_Infomation.cs" />
+    <EmbeddedResource Include="BacSi.resx">
+      <DependentUpon>BacSi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_BenhAn.resx">
+      <DependentUpon>Form_BenhAn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_BenhNhan.resx">
+      <DependentUpon>Form_BenhNhan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Khoa.resx">
+      <DependentUpon>Form_Khoa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_Login.resx">
+      <DependentUpon>Form_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_NhapVien.resx">
+      <DependentUpon>Form_NhapVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_VienPhi.resx">
+      <DependentUpon>Form_VienPhi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_XuatVien.resx">
+      <DependentUpon>Form_XuatVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="picture\form_test.resx">
+      <DependentUpon>form_test.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Form_TrangChu.resx">
+      <DependentUpon>Form_TrangChu.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="picture\login_hpt.png" />
+    <None Include="Resources\pikachu1.gif" />
+    <None Include="Resources\reset_2.png" />
+    <None Include="Resources\out hospital.png" />
+    <None Include="Resources\save_32.png" />
+    <None Include="Resources\reset_32.png" />
+    <None Include="Resources\save.png" />
+    <None Include="Resources\reset.png" />
+    <None Include="Resources\delete.png" />
+    <None Include="Resources\edit.png" />
+    <None Include="Resources\add.png" />
+    <None Include="Resources\department.png" />
+    <None Include="Resources\personCode.png" />
+    <None Include="Resources\expertise.png" />
+    <None Include="Resources\working-hours.png" />
+    <None Include="Resources\backgound_HPT.jpg" />
+    <None Include="Resources\excel.png" />
+    <None Include="Resources\location.png" />
+    <None Include="Resources\card.png" />
+    <None Include="Resources\sex.png" />
+    <None Include="Resources\birth.png" />
+    <None Include="Resources\name.png" />
+    <None Include="Resources\user.png" />
+    <None Include="Resources\exit.png" />
+    <None Include="Resources\icon logout.png" />
+    <None Include="Resources\logo.png" />
+    <None Include="Resources\img_button1.png" />
+    <None Include="Resources\img_button.png" />
+    <None Include="Resources\pic_button_1.png" />
+    <None Include="Resources\pic_button.jpg" />
+    <None Include="Resources\login11.jpg" />
+    <None Include="Resources\login1.png" />
+    <None Include="Resources\log_1.png" />
+    <None Include="Resources\login1.jpg" />
+    <None Include="Resources\login_hpt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BUS\BUS.csproj">
+      <Project>{017cbd6c-96bd-479c-aaf1-6e517700a826}</Project>
+      <Name>BUS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DTO\DTO.csproj">
+      <Project>{14a81092-9cdb-4492-a224-900ea6395ace}</Project>
+      <Name>DTO</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
